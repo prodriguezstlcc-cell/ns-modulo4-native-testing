@@ -1,0 +1,19 @@
+<ActionBar title="Compartir"></ActionBar>
+<StackLayout class="card">
+
+  <Label text="Compartir contenido" class="titulo"></Label>
+
+  <TextField
+    [(ngModel)]="texto"
+    hint="Escribe algo para compartir"
+    textWrap="true"
+    class="input">
+  </TextField>
+
+  <Button
+    text="📤 Compartir Texto"
+    (tap)="compartirTexto()"
+    class="btn">
+  </Button>
+
+</StackLayout>
