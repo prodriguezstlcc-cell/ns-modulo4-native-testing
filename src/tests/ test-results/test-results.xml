@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite name="LeerAhora Reducer" tests="4" errors="0" failures="0" time="0.05">
+    <testcase name="debe retornar estado inicial vacío" time="0.01" classname="LeerAhora Reducer"/>
+    <testcase name="debe agregar un item al despachar agregarLeerAhora" time="0.01" classname="LeerAhora Reducer"/>
+    <testcase name="debe agregar múltiples items correctamente" time="0.01" classname="LeerAhora Reducer"/>
+    <testcase name="debe limpiar el listado al despachar limpiarLeerAhora" time="0.01" classname="LeerAhora Reducer"/>
+  </testsuite>
+</testsuites>
