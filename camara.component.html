@@ -1,0 +1,25 @@
+<ActionBar title="Cámara"></ActionBar>
+<StackLayout class="card">
+
+  <Button
+    text="📷 Tomar Foto"
+    (tap)="tomarFoto()"
+    class="btn">
+  </Button>
+
+  <Image
+    *ngIf="fotoSrc"
+    [src]="fotoSrc"
+    width="300"
+    height="300"
+    stretch="aspectFill">
+  </Image>
+
+  <Button
+    *ngIf="fotoSrc"
+    text="📤 Compartir Foto"
+    (tap)="compartirFoto()"
+    class="btn">
+  </Button>
+
+</StackLayout>
